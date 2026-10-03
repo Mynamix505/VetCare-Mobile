@@ -1,6 +1,16 @@
-# VetCare Mobile — Backend
+# VetCare Mobile
 
-Початкова реалізація архітектури з `codex.md`: Express, PostgreSQL (Sequelize), Redis, Zod. План і стан робіт — у [PLAN.md](PLAN.md).
+Мобильный клиент на Flutter и серверная основа на Express. Актуальный план разработки — [PLAN.md](PLAN.md); прежний backend-план — [docs/backend-plan.md](docs/backend-plan.md).
+
+## Flutter-приложение
+
+В `lib/` добавлены Provider, Dio, тема, адаптивная компоновка и первый сценарий: список питомцев → карточка. Деморежим включён по умолчанию и явно отмечен на экране. API-режим подготовлен к будущему серверному контракту.
+
+Инструкции подготовки платформенных проектов и запуска: [docs/mobile.md](docs/mobile.md). Flutter SDK в текущем окружении не найден: сборка, анализ и Flutter-тесты пока не выполнялись. Вход, запись к врачу и медицинская история — следующие этапы.
+
+## Backend
+
+Початкова реалізація попередньої backend-специфікації: Express, PostgreSQL (Sequelize), Redis, Zod. План і стан backend-робіт — у [docs/backend-plan.md](docs/backend-plan.md).
 
 ## Локальний запуск
 

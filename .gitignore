@@ -6,3 +6,13 @@ coverage/
 *.log
 .npm-cache/
 codex.md
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+android/local.properties
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+*.iml
